@@ -11,7 +11,7 @@ void bfs(pair<int,int> s,pair<int,int> d)
 
 queue<pair<pair<int,int>,int>>q;
 q.push(make_pair(s,0));
-vector<vector<bool> > visited(9,vector<bool>(9,false));
+vector<vector<bool> > visited(9,vector<bool>(9,false)); //declare 9X9 to have 1 based indexing
 visited[s.first][s.second]=true;
 while(!(q.empty()))
 {
