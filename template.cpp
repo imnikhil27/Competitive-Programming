@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 #define SEIVE_SIZE 1000000
+#define ll long long
+#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define mod 1000000007
+#define inf 999999999999999999
+
 using namespace std;
 
 //Sieve for a size SEIVE_SIZE
